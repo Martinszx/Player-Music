@@ -1,0 +1,265 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,400&display=swap');
+
+
+* {
+    font-family: 'Protest Strike', sans-serif;
+  
+}
+
+.player {
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ 
+}
+
+.wrapper {
+  border: 1px solid transparent;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.349) 0px 19px 18px,
+    rgba(0, 0, 0, 0.432) 0px 15px 18px;
+  /* background-color: #ccc; */
+}
+
+.details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.track-art {
+  margin: 25px;
+  height: 250px;
+  width: 250px;
+  border: 2px solid #fff;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  -moz-box-shadow: 0px 6px 5px #ccc;
+  -webkit-box-shadow: 0px 6px 5px #ccc;
+  box-shadow: 0px 6px 5px #ccc;
+  -moz-border-radius: 190px;
+  -webkit-border-radius: 190px;
+  border-radius: 190px;
+}
+
+.now-playing {
+  font-size: 1rem;
+}
+
+.track-name {
+  font-size: 2.5rem;
+}
+
+.track-artist {
+  letter-spacing: 4px;
+  margin-top: 5px;
+  font-weight:600;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.active {
+  color: black;
+}
+
+.repeat-track,
+.random-track,
+.playpause-track,
+.prev-track,
+.next-track {
+  padding: 25px;
+  opacity: 0.8;
+  transition: opacity 0.2s;
+}
+
+.repeat-track:hover,
+.random-track:hover,
+.playpause-track:hover,
+.prev-track:hover,
+.next-track:hover {
+  opacity: 1;
+}
+
+.slider_conteiner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.seek_slider,
+.volume_slider {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  height: 5px;
+  background: #83a9ff;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+}
+.seek_slider::-webkit-slider-thumb,
+.volume_slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  background: #ffffff;
+  border: 2px solid #3774ff;
+  cursor: pointer;
+  border-radius: 100%;
+}
+
+.seek_slider:hover,
+.volume_slider:hover{
+    opacity: 1.0;
+}
+
+.seek_slider{
+    width: 60%;
+}
+
+.volume_slider{
+    width: 30%;
+}
+
+.current-time,
+.total-duration{
+padding: 20px;
+}
+
+
+i.fa-volume-up,
+i.fa-volume-down{
+    padding: 10px;
+}
+
+i,
+.fa-play-circle,
+i.fa-pause-circle,
+i.fa-step-backward,
+i.fa-step-forward{
+    cursor: pointer;
+}
+
+.randomActive{
+    color: #000000;
+}
+.rotate{
+    animation: rotation 18s infinite linear;
+}
+
+@keyframes rotation{
+    from{
+        transform:rotate(0deg);
+    }
+    to{
+        transform: rotate(359deg);
+    }
+}
+
+
+.total-duration,
+.current-time{
+  
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+
+
+
+.track-name{
+letter-spacing: 4px;
+}
+
+/* Regras de mídia para tornar o layout responsivo */
+@media screen and (max-width: 1024px) {
+
+  *{
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  .player {
+      height: auto; /* Altura automática */
+      padding: 20px;
+  }
+  .wrapper {
+      width: 90%;
+      max-width: 400px;
+      border-radius: 10px;
+      padding: 20px;
+      margin-top: 80px;
+  }
+  .buttons{
+    display: flex;
+    width: 110%;
+    justify-content: space-around;
+    margin-left: -15px;
+  }
+  .track-art {
+      width: 150px;
+      height: 150px;
+      margin: 15px auto; /* Centralizando horizontalmente */
+      background-size: cover;
+      
+      background-repeat: no-repeat;
+  }
+  .track-name {
+      font-size: 1.5rem; /* Reduzindo o tamanho da fonte */
+      font-weight: 600;
+  }
+  .track-artist {
+      font-size: 0.9rem; 
+      font-weight: 400;/* Reduzindo o tamanho da fonte */
+  }
+  .seek_slider{
+      width: 90%; /* Ajustando a largura dos sliders */
+      height: 10px;
+      border-radius: 8px;
+  }
+  .current-time, .total-duration {
+      font-size: 1rem; /* Reduzindo o tamanho da fonte */
+  }
+.random-track{
+font-size: 10px;
+}
+.playpause-track{
+  font-size: 10px;
+
+}
+.prev-track{
+  font-size: 10px;
+}
+.next-track{
+  font-size: 10px;
+}
+.repeat-track{
+  font-size: 10px;
+}
+.playpause-track,
+.prev-track{
+  margin-right: -20px;
+}
+
+.repeat-track{
+  margin-left: -20px;
+}
+
+.random-track{
+  margin-right: -20px;
+}
+}
+
