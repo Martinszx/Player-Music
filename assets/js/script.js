@@ -21,6 +21,14 @@ let isRandom = false;
 let updateTimer;
 
 const music_list = [
+   {
+    img: "",
+    name: "Cupido",
+    artist: "Mc Hariel",
+    music: "./assets/cupido.mp3",
+    gradient: "linear-gradient(to right, #9A6A34, #000000)",
+    textColor: "#ffff",
+  },
   {
     img: "./assets/images/topgun.jpg",
     name: "Top Gun: Maverick",
