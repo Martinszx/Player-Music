@@ -34,7 +34,14 @@ const music_list = [
     name: "Doutora",
     artist: "Mc Kevin",
     music: "./Doutora.mp3",
-    gradient: "linear-gradient(to right, #9A6A34, #000000)",
+    gradient: "linear-gradient(to right, #708090, #F8F8FF)",
+    textColor: "#ffff",
+  },    {
+    img: "./assets/images/Doutora-2.webp",
+    name: "Doutora 2",
+    artist: "Mc Kevin",
+    music: "./Doutora 2.mp3",
+    gradient: "linear-gradient(to right, #87CEEB, #00BFFF)",
     textColor: "#ffff",
   },
      {
@@ -42,17 +49,10 @@ const music_list = [
     name: "Doutora 3",
     artist: "Mc Kevin",
     music: "./Doutora 3.mp3",
-    gradient: "linear-gradient(to right, #9A6A34, #000000)",
+    gradient: "linear-gradient(to right, #87CEFA, #4F4F4F)",
     textColor: "#ffff",
   },
-    {
-    img: "./assets/images/Doutora-2.webp",
-    name: "Doutora 2",
-    artist: "Mc Kevin",
-    music: "./Doutora 2.mp3",
-    gradient: "linear-gradient(to right, #9A6A34, #000000)",
-    textColor: "#ffff",
-  },
+
     {
     img: "./assets/images/Juncao-Venenosa.webp",
     name: "Opção",
@@ -66,7 +66,7 @@ const music_list = [
     name: "Cupido",
     artist: "Mc Hariel",
     music: "./assets/cupido.mp3",
-    gradient: "linear-gradient(to right, #9A6A34, #000000)",
+    gradient: "linear-gradient(to right, #F8F8FF, #228B22, #696969)",
     textColor: "#ffff",
   },
   {
