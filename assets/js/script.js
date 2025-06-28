@@ -22,15 +22,15 @@ let updateTimer;
 
 const music_list = [
     {
-    img: "",
+    img: "./assets/images/Junção Venenosa.webp",
     name: "Junção Venenosa",
     artist: "Mc Kevin",
     music: "./Junção Venenosa.mp3",
-    gradient: "linear-gradient(to right, #9A6A34, #000000)",
+    gradient: "linear-gradient(to right, #1C1C1C, #800000)",
     textColor: "#ffff",
   },
     {
-    img: "",
+    img: "./assets/images/Doutora.webp",
     name: "Doutora",
     artist: "Mc Kevin",
     music: "./Doutora.mp3",
@@ -38,7 +38,7 @@ const music_list = [
     textColor: "#ffff",
   },
      {
-    img: "",
+    img: "./assets/images/Doutora 3.webp",
     name: "Doutora 3",
     artist: "Mc Kevin",
     music: "./Doutora 3.mp3",
@@ -46,7 +46,7 @@ const music_list = [
     textColor: "#ffff",
   },
     {
-    img: "",
+    img: "./assets/images/Doutora 2.webp",
     name: "Doutora 2",
     artist: "Mc Kevin",
     music: "./Doutora 2.mp3",
@@ -54,15 +54,15 @@ const music_list = [
     textColor: "#ffff",
   },
     {
-    img: "",
+    img: "./assets/images/Junção Venenosa.webp",
     name: "Opção",
     artist: "Mc Kevin",
     music: "./Opção.mp3",
-    gradient: "linear-gradient(to right, #9A6A34, #000000)",
+    gradient: "linear-gradient(to right, #1C1C1C, #800000)",
     textColor: "#ffff",
   },
    {
-    img: "",
+    img: "./assets/images/cupido.wep",
     name: "Cupido",
     artist: "Mc Hariel",
     music: "./assets/cupido.mp3",
