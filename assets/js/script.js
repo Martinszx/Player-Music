@@ -34,14 +34,14 @@ const music_list = [
     name: "Doutora",
     artist: "Mc Kevin",
     music: "./Doutora.mp3",
-    gradient: "linear-gradient(to right, #708090, #F8F8FF)",
+    gradient: "linear-gradient(to right, #708090, #8B008B)",
     textColor: "#ffff",
   },    {
     img: "./assets/images/Doutora-2.webp",
     name: "Doutora 2",
     artist: "Mc Kevin",
     music: "./Doutora 2.mp3",
-    gradient: "linear-gradient(to right, #87CEEB, #00BFFF)",
+    gradient: "linear-gradient(to right, #87CEEB, #8B008B)",
     textColor: "#ffff",
   },
      {
