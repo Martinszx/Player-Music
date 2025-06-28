@@ -66,7 +66,7 @@ const music_list = [
     name: "Cupido",
     artist: "Mc Hariel",
     music: "./assets/cupido.mp3",
-    gradient: "linear-gradient(to right, #F8F8FF, #228B22, #696969)",
+    gradient: "linear-gradient(to right, #F8F8FF, #228B22, #F0E68C)",
     textColor: "#ffff",
   },
   {
