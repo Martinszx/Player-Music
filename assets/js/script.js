@@ -22,7 +22,7 @@ let updateTimer;
 
 const music_list = [
     {
-    img: "./assets/images/Junção Venenosa.webp",
+    img: "./assets/images/Juncao-Venenosa.webp",
     name: "Junção Venenosa",
     artist: "Mc Kevin",
     music: "./Junção Venenosa.mp3",
@@ -38,7 +38,7 @@ const music_list = [
     textColor: "#ffff",
   },
      {
-    img: "./assets/images/Doutora 3.webp",
+    img: "./assets/images/Doutora-3.webp",
     name: "Doutora 3",
     artist: "Mc Kevin",
     music: "./Doutora 3.mp3",
@@ -46,7 +46,7 @@ const music_list = [
     textColor: "#ffff",
   },
     {
-    img: "./assets/images/Doutora 2.webp",
+    img: "./assets/images/Doutora-2.webp",
     name: "Doutora 2",
     artist: "Mc Kevin",
     music: "./Doutora 2.mp3",
@@ -54,7 +54,7 @@ const music_list = [
     textColor: "#ffff",
   },
     {
-    img: "./assets/images/Junção Venenosa.webp",
+    img: "./assets/images/Juncao-Venenosa.webp",
     name: "Opção",
     artist: "Mc Kevin",
     music: "./Opção.mp3",
@@ -62,7 +62,7 @@ const music_list = [
     textColor: "#ffff",
   },
    {
-    img: "./assets/images/cupido.wep",
+    img: "./assets/images/cupido.webp",
     name: "Cupido",
     artist: "Mc Hariel",
     music: "./assets/cupido.mp3",
