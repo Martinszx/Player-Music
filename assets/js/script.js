@@ -21,6 +21,46 @@ let isRandom = false;
 let updateTimer;
 
 const music_list = [
+    {
+    img: "",
+    name: "Junção Venenosa",
+    artist: "Mc Kevin",
+    music: "./Junção Venenosa.mp3",
+    gradient: "linear-gradient(to right, #9A6A34, #000000)",
+    textColor: "#ffff",
+  },
+    {
+    img: "",
+    name: "Doutora",
+    artist: "Mc Kevin",
+    music: "./Doutora.mp3",
+    gradient: "linear-gradient(to right, #9A6A34, #000000)",
+    textColor: "#ffff",
+  },
+     {
+    img: "",
+    name: "Doutora 3",
+    artist: "Mc Kevin",
+    music: "./Doutora 3.mp3",
+    gradient: "linear-gradient(to right, #9A6A34, #000000)",
+    textColor: "#ffff",
+  },
+    {
+    img: "",
+    name: "Doutora 2",
+    artist: "Mc Kevin",
+    music: "./Doutora 2.mp3",
+    gradient: "linear-gradient(to right, #9A6A34, #000000)",
+    textColor: "#ffff",
+  },
+    {
+    img: "",
+    name: "Opção",
+    artist: "Mc Kevin",
+    music: "./Opção.mp3",
+    gradient: "linear-gradient(to right, #9A6A34, #000000)",
+    textColor: "#ffff",
+  },
    {
     img: "",
     name: "Cupido",
